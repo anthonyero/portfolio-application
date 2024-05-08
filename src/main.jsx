@@ -6,11 +6,7 @@ import App from './App';
 import About from './pages/About.jsx'
 import Portfolio from './components/Portfolio.jsx';
 import Contact from './components/ContactForm.jsx';
-/* Import pages once there components are written
-
-- Resume
-
-*/
+import Resume from './pages/Resume.jsx';
 
 // Create the router as well as the accessible routes and their respective component
 const router = createBrowserRouter([
@@ -33,11 +29,11 @@ const router = createBrowserRouter([
       {
         path: '/contact',
         element: <Contact />
-      },/*
+      },
       {
-        path: 'Resume',
+        path: '/resume',
         element: <Resume />
-      } */
+      }
     ]
   }
 ]);
