@@ -3,14 +3,10 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 import App from './App';
 
-/* Import pages once there components are written
-
-- About Me
-- Portfolio
-- Contact
-- Resume
-
-*/
+import About from './pages/About.jsx'
+import Portfolio from './components/Portfolio.jsx';
+import Contact from './components/ContactForm.jsx';
+import Resume from './pages/Resume.jsx';
 
 // Create the router as well as the accessible routes and their respective component
 const router = createBrowserRouter([
@@ -23,19 +19,19 @@ const router = createBrowserRouter([
         element: <About />
       },
       {
-        path: '/About',
+        path: '/about',
         element: <About />
-      },
+      }, 
       {
-        path: '/Portfolio',
+        path: '/portfolio',
         element: <Portfolio />
       },
       {
-        path: '/Contact',
+        path: '/contact',
         element: <Contact />
       },
       {
-        path: 'Resume',
+        path: '/resume',
         element: <Resume />
       }
     ]

@@ -1,5 +1,6 @@
 import { Outlet } from 'react-router-dom';
-// import Nav from './components/NavTabs';
+import Nav from './components/NavTabs';
+import Footer from './components/Footer'
 import CssBaseline from '@mui/material/CssBaseline';
 import Grid from '@mui/material/Grid';
 
@@ -10,15 +11,18 @@ function App() {
       <CssBaseline />
       <Grid container spacing = {1}>
         <Grid item xs={4}>
-          <Item>@anthonyero</Item>
+          <p>@anthonyero</p>
         </Grid>
         <Grid item xs={8}>
-          <Nav />
+          <div>
+            <Nav />
+          </div>
         </Grid>
       </Grid>
       <main >
         <Outlet />
       </main>
+      <Footer />
     </>
   );
 };
