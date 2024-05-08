@@ -1,5 +1,5 @@
 import { Outlet } from 'react-router-dom';
-// import Nav from './components/NavTabs';
+import Nav from './components/NavTabs';
 import CssBaseline from '@mui/material/CssBaseline';
 import Grid from '@mui/material/Grid';
 
@@ -13,7 +13,9 @@ function App() {
           <Item>@anthonyero</Item>
         </Grid>
         <Grid item xs={8}>
-          <Nav />
+          <Item>
+            <Nav />
+          </Item>
         </Grid>
       </Grid>
       <main >
