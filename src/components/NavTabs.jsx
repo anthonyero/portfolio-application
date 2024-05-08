@@ -2,15 +2,17 @@ import { Link, useLocation } from 'react-router-dom';
 import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 
+// Utilize value in tab to highlight the selected tab
+
 function NavTabs() {
 	const currentPage = useLocation().pathname;
 
 	return (
 		<Tabs value={currentPage}>	
-			<Tab label='About Me' to='/About' component={Link}/>
-			<Tab label='Portfolio' to='/Portfolio' component={Link}/>
-			<Tab label='Contact' to='/Contact' component={Link}/>
-			<Tab label='Resume' to='/Resume' component={Link}/>
+			<Tab label='About Me' value='/about' to='/about' component={Link}/>
+			<Tab label='Portfolio' value='/portfolio' to='/portfolio' component={Link}/>
+			<Tab label='Contact' value='/contact' to='/contact' component={Link}/>
+			<Tab label='Resume' value='/resume' to='/resume' component={Link}/>
 		</Tabs>
 	);
 };
