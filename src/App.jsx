@@ -10,12 +10,12 @@ function App() {
       <CssBaseline />
       <Grid container spacing = {1}>
         <Grid item xs={4}>
-          <Item>@anthonyero</Item>
+          <p>@anthonyero</p>
         </Grid>
         <Grid item xs={8}>
-          <Item>
+          <div>
             <Nav />
-          </Item>
+          </div>
         </Grid>
       </Grid>
       <main >

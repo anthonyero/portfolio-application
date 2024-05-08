@@ -3,9 +3,9 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 import App from './App';
 
+import About from './pages/About.jsx'
 /* Import pages once there components are written
 
-- About Me
 - Portfolio
 - Contact
 - Resume
@@ -23,9 +23,9 @@ const router = createBrowserRouter([
         element: <About />
       },
       {
-        path: '/About',
+        path: '/about',
         element: <About />
-      },
+      }, /*
       {
         path: '/Portfolio',
         element: <Portfolio />
@@ -37,7 +37,7 @@ const router = createBrowserRouter([
       {
         path: 'Resume',
         element: <Resume />
-      }
+      } */
     ]
   }
 ]);
