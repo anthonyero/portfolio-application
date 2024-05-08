@@ -5,10 +5,9 @@ import App from './App';
 
 import About from './pages/About.jsx'
 import Portfolio from './components/Portfolio.jsx';
+import Contact from './components/ContactForm.jsx';
 /* Import pages once there components are written
 
-- Portfolio
-- Contact
 - Resume
 
 */
@@ -28,13 +27,13 @@ const router = createBrowserRouter([
         element: <About />
       }, 
       {
-        path: '/Portfolio',
+        path: '/portfolio',
         element: <Portfolio />
-      },/*
-      {
-        path: '/Contact',
-        element: <Contact />
       },
+      {
+        path: '/contact',
+        element: <Contact />
+      },/*
       {
         path: 'Resume',
         element: <Resume />
