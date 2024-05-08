@@ -1,6 +1,6 @@
 import { Outlet } from 'react-router-dom';
 // import Nav from './components/NavTabs';
-import cssBaseline from '@mui/material/CssBaseline';
+import CssBaseline from '@mui/material/CssBaseline';
 import Grid from '@mui/material/Grid';
 
 function App() {
