@@ -1,14 +1,22 @@
 export default function About() {
   return (
     <div>
-      <h1>About Page</h1>
+    <img src='../src/assets/images/personal_photo_resized.jpg' width='30%' height='30%'/>
+      <h1>About Me</h1>
       <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
+         My name is Anthony Rodriguez-Ortiz, I am a Research Data Analyst Associate with the Northwestern University, Feinberg School of Medicine.
+      </p>
+
+      <p> 
+        Primarily, I assist with our social and sexual network data research projects that utilize the internally developed Network Canvas software suite. 
+        Two projects I would like to highlight include a social and sexual network data pilot examining HIV-1 in Ibadan, Nigeria. 
+        The other project is a RADx-UP C3 studying examine COVID-19 behaviors and attitudes in the central United States. 
+        I graduated from the University of Chicago in 2019, where I majored in Public Policy.
+      </p>
+
+      <p>
+        Currently, I am a student in the Northwestern Coding Boot Camp offered by Northwestern University and edX. My anticipated completion is early June, 2024. 
+        I am interested in utilizing my experience in data analysis and social network research to assist in the development of research software and data analytic tools in a full-stack developer role. 
       </p>
     </div>
   );
