@@ -42,6 +42,7 @@ export default function ContactForm() {
 	// Investigate how to generate a warning when a user clicks away from a required field leaving an empty object
 		// May be possible to create state variable(s) handling a valid response and conditionally rendering 
 		// Would a useEffect hook be useful here? 
+		// "Click-Away Listener"? https://mui.com/material-ui/react-click-away-listener/
 
 	// As we are deploying to Netlify, I added this attribute to allow form submission through their service
 	return (
@@ -53,6 +54,8 @@ export default function ContactForm() {
 					name='personalName'
 					onChange={handleInputChange}
 					type='text'
+					required
+
 				/>
 				<label for='emailAddress'>Email Address: </label>
 				<input 
@@ -60,6 +63,7 @@ export default function ContactForm() {
 					name='emailAddress'
 					onChange={handleInputChange}
 					type='email'
+					required
 				/>
 				<label for='messageContent'>Message: </label>
 				<textarea
@@ -68,7 +72,8 @@ export default function ContactForm() {
 					onChange={handleInputChange}
 					type='text'
 					rows="8" 
-					cols="50"		
+					cols="50"
+					required		
 				/>
 				<button type='submit'>Submit</button>
 			</form>
