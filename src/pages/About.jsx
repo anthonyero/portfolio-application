@@ -1,7 +1,7 @@
 export default function About() {
   return (
     <div>
-    <img src='../public/assets/images/personal_photo_resized.jpg' width='30%' height='30%'/>
+    <img src='/assets/images/personal_photo_resized.jpg' width='30%' height='30%'/>
       <h1>About Me</h1>
       <p>
          My name is Anthony Rodriguez-Ortiz, I am a Research Data Analyst Associate with the Northwestern University, Feinberg School of Medicine.
