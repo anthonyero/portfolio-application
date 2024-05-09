@@ -1,8 +1,11 @@
+//import resumeFile from '../src/assets/Rodriguez-Ortiz Anthony - Resume (April 2024).pdf';
+import resumeFile from '../assets/Rodriguez-Ortiz Anthony - Resume (April 2024).pdf';
+
 export default function Resume() {
   return (
     <div>
       <h1>Resume</h1>
-      <a href='../src/assets/Rodriguez-Ortiz Anthony - Resume (April 2024).pdf' download>Download a copy of my resume! </a>
+      <a href={resumeFile} download>Download a copy of my resume! </a>
       <h2>Front-end Proficiencies</h2>
         <ul>
           <li>HTML</li>
