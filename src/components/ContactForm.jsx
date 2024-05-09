@@ -47,7 +47,7 @@ export default function ContactForm() {
 	// As we are deploying to Netlify, I added this attribute to allow form submission through their service
 	return (
 		<div className = 'container'> 
-			<form  style={styles.form} name='contact' method='POST' data-netlify='true'>
+			<form  style={styles.form} name='contact' id='contact-form' method='POST' data-netlify='true' onSubmit={handleFormSubmit}>
 				<label for='personalName'>Name: </label>
 				<input
 					value={personalName}
