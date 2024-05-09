@@ -1,14 +1,38 @@
 [
 	{
-	"imagePath": "../src/assets/images/tech-blog-screenshot.png", 
+	"imagePath": "/assets/images/event-tracker-demo.gif", 
+	"deployedLink": "https://eventtracker.onrender.com/",
+	"repoLink": "https://github.com/anthonyero/EventTracker",
+	"title": "Event Tracker"
+	},
+	{
+	"imagePath": "/assets/images/e-commerce-routes-demo.gif", 
+	"deployedLink": "https://drive.google.com/file/d/1I_GySHMYFgF2pimZOxE8zrvV6tt97iTq/view?usp=sharing",
+	"repoLink": "https://github.com/anthonyero/e-commerce-service",
+	"title": "E-Commerce Service"
+	},
+	{
+	"imagePath": "/assets/images/employee-tracker-demo.gif", 
+	"deployedLink": "https://drive.google.com/file/d/1iarA-Eai9TSrqhk5VbEZu8SVtuVktq9f/view?usp=sharing",
+	"repoLink": "https://github.com/anthonyero/employee-tracker",
+	"title": "Employee Tracker"
+	},
+	{
+	"imagePath": "/assets/images/social-network-api-user-demo.gif", 
+	"deployedLink": "https://drive.google.com/file/d/1nAvYv3AQpP1GomREH-EV-42khEdL8X4B/view?usp=sharing",
+	"repoLink": "https://github.com/anthonyero/social_network_api",
+	"title": "Social Network API"
+	},
+	{
+	"imagePath": "/assets/images/tech-blog-screenshot.png", 
 	"deployedLink": "https://tech-blog-klaz.onrender.com/",
 	"repoLink": "https://github.com/anthonyero/tech-blog",
 	"title": "Tech Blog"
 	},
 	{
-	"imagePath": "../src/assets/images/tech-blog-screenshot.png", 
-	"deployedLink": "https://tech-blog-klaz.onrender.com/",
-	"repoLink": "https://github.com/anthonyero/tech-blog",
-	"title": "Tech Blog"
+	"imagePath": "/assets/images/pro-readme-gen-demo.gif", 
+	"deployedLink": "https://app.screencastify.com/v3/watch/DgCoADqlZ89i0H3B0fi0",
+	"repoLink": "https://github.com/anthonyero/professional-README-generator",
+	"title": "Professional README.md Generator"
 	}
 ]
