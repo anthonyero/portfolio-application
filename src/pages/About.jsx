@@ -1,7 +1,22 @@
 export default function About() {
+  const styles = {
+    aboutTextContainer: {
+      display: 'flex',
+      flexDirection: 'column',
+      justifyContent: 'center',
+      margin: '20px'
+    },
+    headshot: {
+      display: 'block',
+      marginLeft: 'auto',
+      marginRight: 'auto'
+    }
+
+  }
+
   return (
-    <div>
-    <img src='/assets/images/personal_photo_resized.jpg' width='30%' height='30%'/>
+    <div className='about-text-container' style={styles.aboutTextContainer}>
+    <img className = 'headshot' src='/assets/images/personal_photo_resized.jpg' style={styles.headshot} width='60%' height='60%'/>
       <h1>About Me</h1>
       <p>
          My name is Anthony Rodriguez-Ortiz, I am a Research Data Analyst Associate with the Northwestern University, Feinberg School of Medicine.
