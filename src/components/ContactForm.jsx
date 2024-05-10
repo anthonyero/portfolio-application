@@ -31,13 +31,14 @@ export default function ContactForm() {
 
 	};
 
-	// const handleFormSubmit = (e) => {
-	// 	e.preventDefault(); // Prevents page refresh
+	const handleFormSubmit = (e) => {
+		e.preventDefault(); // Prevents page refresh
+		console.log(personalName, emailAddress, messageContent);
 
 	// // 	setPersonalName('');
 	// // 	setEmail('');
 	// // 	setMessage('');
-	// }
+	}
 
 	// Investigate how to generate a warning when a user clicks away from a required field leaving an empty object
 		// May be possible to create state variable(s) handling a valid response and conditionally rendering 
@@ -47,7 +48,8 @@ export default function ContactForm() {
 	// As we are deploying to Netlify, I added this attribute to allow form submission through their service
 	return (
 		<div className = 'container'> 
-			<form  style={styles.form} name='contact' id='contact-form' method='POST' netlify>
+			<form  style={styles.form} name='contact' id='contact-form' method='POST' onSubmit={handleFormSubmit}>
+				<input type="hidden" name="form-name" value="contact" />
 				<label for='personalName'>Name: </label>
 				<input
 					value={personalName}
