@@ -1,6 +1,15 @@
 export default function About() {
+  const styles = {
+    aboutTextContainer: {
+      display: 'flex',
+      flexDirection: 'column',
+      justifyContent: 'center',
+      margin: '20px'
+    }
+  }
+
   return (
-    <div>
+    <div className='about-text-container' style={styles.aboutTextContainer}>
     <img src='/assets/images/personal_photo_resized.jpg' width='30%' height='30%'/>
       <h1>About Me</h1>
       <p>
