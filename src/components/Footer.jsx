@@ -2,7 +2,7 @@ export default function Footer() {
   const styles = {
     footer: {
       display: 'flex',
-      justifyContener: 'center',
+      justifyContent: 'center',
       alignItems: 'center'
     },
     github: {
