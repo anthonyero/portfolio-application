@@ -1,24 +1,16 @@
 import { Outlet } from 'react-router-dom';
-import Nav from './components/NavTabs';
+// import Nav from './components/NavTabs';
 import Footer from './components/Footer'
 import CssBaseline from '@mui/material/CssBaseline';
-import Grid from '@mui/material/Grid';
+// import Grid from '@mui/material/Grid';
+import Header from './components/Header'
 
 function App() {
 
   return (
     <>
       <CssBaseline />
-      <Grid container spacing = {1}>
-        <Grid item xs={4}>
-          <p>@anthonyero</p>
-        </Grid>
-        <Grid item xs={8}>
-          <div>
-            <Nav />
-          </div>
-        </Grid>
-      </Grid>
+      <Header />
       <main >
         <Outlet />
       </main>
