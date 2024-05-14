@@ -28,7 +28,8 @@ export default function PortfolioItem ({imagePath, deployedLink, repoLink, title
 		position: 'absolute',
 		top: '50%',
 		bottom: '50%',
-		left: '40%'
+		left: '40%', 
+		display: isHover ? '' : 'none'
 }
 	}
 
