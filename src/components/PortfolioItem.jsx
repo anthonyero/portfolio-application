@@ -26,11 +26,12 @@ export default function PortfolioItem ({imagePath, deployedLink, repoLink, title
 		},
 		itemDescriptives: {
 			position: 'absolute',
-			top: '50%',
+			top: '30%',
 			bottom: '50%',
-			left: '40%', 
+			left: '50%', 
 			display: isHover ? '' : 'none',
-			fontSize: '1.8rem',
+			fontSize: '1.8rem', 
+			fontWeight: 'bold'
 		},
 		linkContainer: {
 			display: 'flex',
