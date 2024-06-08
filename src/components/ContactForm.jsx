@@ -50,7 +50,7 @@ export default function ContactForm() {
 		<div className = 'container'> 
 			<form  style={styles.form} name='contact' id='contact-form' method='POST' onSubmit={handleFormSubmit}>
 				<input type="hidden" name="form-name" value="contact" />
-				<label for='personalName'>Name: </label>
+				<label htmlFor='personalName'>Name: </label>
 				<input
 					value={personalName}
 					name='personalName'
@@ -59,7 +59,7 @@ export default function ContactForm() {
 					required
 
 				/>
-				<label for='emailAddress'>Email Address: </label>
+				<label htmlFor='emailAddress'>Email Address: </label>
 				<input 
 					value={emailAddress}
 					name='emailAddress'
@@ -67,7 +67,7 @@ export default function ContactForm() {
 					type='email'
 					required
 				/>
-				<label for='messageContent'>Message: </label>
+				<label htmlFor='messageContent'>Message: </label>
 				<textarea
 					value={messageContent}
 					name='messageContent'
